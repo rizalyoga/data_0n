@@ -1,0 +1,65 @@
+@import "src/styles/Variables";
+
+.main-buble-container {
+  min-width: 234.5px;
+
+  background: #fff;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: -50px;
+  margin-left: 8px;
+  position: absolute;
+
+  .main-buble-inner-content {
+    padding: 9px;
+
+    .user-profile {
+      max-width: 100%;
+      display: flex;
+      gap: 5px;
+
+      .pp-user {
+        img {
+          width: 27px;
+          height: 27px;
+          border-radius: 10px;
+        }
+      }
+
+      .user-info {
+        margin-top: -10px;
+        .username {
+          font-size: 12px;
+          color: $buble-text-color;
+        }
+
+        .time {
+          margin-top: -10px;
+          font-size: 9px;
+          color: $buble-text-color;
+        }
+      }
+    }
+
+    .body-status {
+      .status-user {
+        margin-top: -10px;
+        color: $buble-text-color;
+        font-size: 10.5px;
+        max-width: 198px;
+        line-height: 22px;
+      }
+    }
+
+    .button-controls {
+      color: $buble-text-color;
+      display: flex;
+      justify-content: space-between;
+
+      .action-user-buttons {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}

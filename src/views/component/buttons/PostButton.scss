@@ -1,0 +1,23 @@
+@import "src/styles/Variables";
+
+.button-post-container {
+  width: 105.7px;
+  height: 31.5px;
+  background: $button-color;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  margin-left: 155px;
+  margin-top: 500px;
+  z-index: 100;
+
+  p {
+    font-size: 10.5px;
+    padding: 9px;
+    color: #fff;
+    text-align: center;
+  }
+}

@@ -1,0 +1,31 @@
+@import "src/styles/Variables";
+
+.news-inner-content {
+  max-width: $content-max-width;
+  min-height: 100vh;
+  margin: auto;
+  padding: 0 0 10px 0;
+
+  h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: -5px;
+    margin: 0 4px;
+  }
+
+  .news-content {
+    margin-top: 25px;
+
+    img {
+      border-radius: 20px;
+      width: 253px;
+      height: 120px;
+      margin: auto;
+    }
+
+    .news-buble-container {
+      margin-top: 90px;
+    }
+  }
+}

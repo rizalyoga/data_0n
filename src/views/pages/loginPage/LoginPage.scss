@@ -1,0 +1,39 @@
+@import "src/styles/Variables";
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: $background-color;
+  width: 100%;
+
+  .form-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    form {
+      label {
+        color: #fff;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      .login-button {
+        margin-top: 20px;
+
+        input {
+          border: none;
+          padding: 5px 20px;
+          background: $button-color;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

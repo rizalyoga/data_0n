@@ -1,0 +1,23 @@
+@import "src/styles/Variables";
+
+.navbar-container {
+  background-color: $dark-color;
+  margin: auto;
+  height: 18px;
+  color: #fff;
+
+  .navbar-inner-content {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+
+    max-width: $max-width;
+    font-size: 10.5px;
+
+    .clock {
+      color: #fff;
+    }
+  }
+}

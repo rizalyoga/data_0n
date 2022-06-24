@@ -1,0 +1,68 @@
+@import "src/styles/Variables";
+
+.left-buble-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 20px 0;
+
+  .image-news {
+    img {
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      position: absolute;
+      margin-top: -45px;
+      margin-left: -65px;
+    }
+  }
+
+  .left-buble-inner-content {
+    width: 210px;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+
+    .user-profile {
+      max-width: 100%;
+      display: flex;
+      gap: 5px;
+
+      .pp-user {
+        img {
+          width: 27px;
+          height: 27px;
+          border-radius: 10px;
+        }
+      }
+
+      .user-info {
+        margin-top: -10px;
+
+        .username {
+          margin-top: -8px;
+          font-size: 12px;
+          color: $buble-text-color;
+        }
+
+        .time {
+          margin-top: 13px;
+          font-size: 9px;
+          color: $buble-text-color;
+        }
+      }
+    }
+
+    .body-status {
+      max-width: 75%;
+      .status-user {
+        margin-top: -10px;
+        color: $buble-text-color;
+        font-size: 10.5px;
+        line-height: 22px;
+      }
+    }
+  }
+}
